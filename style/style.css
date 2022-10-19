@@ -8,12 +8,31 @@
 
 .body {
   background-color: var(--secondary-bg-color);
+  color: var(--primary-font-color);
 }
 section {
   font-family: var(--font-family);
   background-color: var(--primary-bg-color);
   color: var(--primary-font-color);
+  padding: 160px 20px;
 }
-h1 {
-  font-size: 100px;
+.title {
+  font-size: 58px;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+p {
+  font-size: 18px;
+  color: #c3cad5;
+  font-weight: 400;
+}
+.skills {
+  text-align: center;
+  padding: 30px;
 }
