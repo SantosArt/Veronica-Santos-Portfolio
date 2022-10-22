@@ -39,11 +39,6 @@ p {
   color: #c3cad5;
   font-weight: 400;
 }
-.skills {
-  text-align: center;
-  padding: 30px;
-}
-.card {
-  display: flex;
-  flex-direction: column;
+.card-img {
+  width: 10%;
 }
