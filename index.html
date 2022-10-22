@@ -19,62 +19,103 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="body">
     <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-7">
-            <h1 class="title">
-              I'm Veronica Santos,
-              <br />
-              a Front-end Developer,
-              <br />from Germany
-            </h1>
+      <h1 class="title">
+        <span class="symbol">/</span>
+        I'm Veronica Santos,
+        <br />
+        a Front-end Developer,
+        <br />from Germany
+      </h1>
+      <div class="topic">
+        <div class="p-3">
+        <h3 class="h3"><span class="symbol">/</span> About me</h3>
+        <h5 class="h5">I’ve been developing websites since 2022</h5>
+        <p class="p">I learn developing by SheCodes</p>
+        <a href="" class="button">Learn more</a> →</div>
+        <hr />
+        <h3 class="h3"><span class="symbol">/</span> My Work</h3>
+        <h5 class="h5 pb-4">Take a look at the latest projects I’ve done</h5>
+        <div class="container">
+            <div class="row p-4 m-4 work rounded">
+              <div class="col d-none d-md-block">
+                <img
+                  src="/img/Weather-app.JPG"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col text-center">
+                <h4>The Coffe Website</h4>
+                <p>
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>  <div class="container">
+            <div class="row m-4 p-4 work rounded">
+               <div class="col text-center">
+                <h4>The Coffe Website</h4>
+                <p>
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+              <div class="col d-none d-md-block">
+                <img
+                  src="/img/Coffee-website.JPG"
+                  class="img-fluid rounded-start"
+                  alt="..." width="360px"
+                />
+              </div>
+             
+            </div>
           </div>
-          <div class="col-5">
-            <h3>About me</h3>
-            <a href="" class="button">Learn more</a> →
-            <hr />
-            <h3>My Work</h3>
-            <a href="" class="button">Browse Portfolio</a> →
-          </div>
+          
         </div>
+        <a href="" class="button">Browse Portfolio</a> →
       </div>
     </section>
-    <h3 class="text-center m-3 subtitle">MY SKILLS</h3>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="/img/icon-html.png" class="card-img-top skills" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title text-center">HTML</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="/img/icon-css.png" class="card-img-top skills" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title text-center">CSS</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="/img/icon-js.png" class="card-img-top skills" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title text-center">Javascript</h5>
-          </div>
-        </div>
-      </div>
+    <div class="skills rounded">
+    <h3 class="text-center m-3 subtitle h3">
+      <span class="symbol">/</span> MY SKILLS
+    </h3>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-4"><img
+              src="/img/icon-HTML.svg"
+             width="100px"
+              alt="..."
+            />
     </div>
-    <footer>
-      <div class="m-4 subtitle">follow me</div>
-      <img src="/img/icon-facebook.svg" alt="facebook-icon" />
-      <img src="/img/icon-instagram.png" alt="instagram-icon" />
-      <img src="/img/icon-twitter.png" alt="" />
-      <img src="/img/icon-linkedin.png" alt="" />
-      <img src="/img/icon-github.png" alt="" />
+        <div class="col-4"><img
+              src="/img/icon-css.svg"
+             width="100px"
+              alt="..."
+            />
+            </div>
+        <div class="col-4"><img
+              src="/img/icon-JS.svg"
+              class="flex"
+             width="100px"
+              alt="..."
+            />
+            
+          </div>
+    <footer class="p-4 m-3 ">
+      <div class="p-4 m-3 subtitle h3"><span class="symbol">/</span> follow me</div>
+      <div class="subtitle">
+        <img src="/img/icon-facebook.svg" alt="facebook-icon" />
+        <img src="/img/icon-instagram.png" alt="instagram-icon" />
+        <img src="/img/icon-twitter.png" alt="" />
+        <img src="/img/icon-linkedin.png" alt="" />
+        <img src="/img/icon-github.png" alt="" />
+      </div>
     </footer>
+    </div>
   </body>
 </html>

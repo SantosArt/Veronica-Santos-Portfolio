@@ -6,21 +6,48 @@
   --font-family: Spacegrotesk, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.work {
+  background-color: var(--secondary-bg-color);
+}
+h3 {
+  text-transform: uppercase;
+  padding: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.h5 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
 .body {
   background-color: var(--secondary-bg-color);
-  color: var(--primary-font-color);
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+.topic {
+  padding: 60px;
+}
+.skills {
+  background-color: #ffffff;
 }
 section {
   font-family: var(--font-family);
   background-color: var(--primary-bg-color);
   color: var(--primary-font-color);
-  padding: 160px 20px;
+  padding: 150px 20px 50px 20px;
 }
 .title {
   font-size: 58px;
   font-weight: 700;
 }
 .subtitle {
+  text-align: center;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -34,11 +61,16 @@ section {
   color: #ffffff;
   text-decoration: underline;
 }
-p {
+.p {
   font-size: 18px;
   color: #c3cad5;
   font-weight: 400;
 }
-.card-img {
-  width: 10%;
+
+.symbol {
+  color: var(--secondary-font-color);
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  text-align: center;
 }
