@@ -3,7 +3,7 @@
   --secondary-bg-color: #22282f;
   --primary-font-color: #ffffff;
   --secondary-font-color: #075fe4;
-  --font-family: Spacegrotesk, sans-serif;
+  --font-family: sans-serif;
 }
 
 h1 {
@@ -71,6 +71,21 @@ section {
   color: var(--secondary-font-color);
   font-weight: bold;
 }
-@media (max-width: 900px) {
-  text-align: center;
+@media (max-width: 800px) {
+  .body {
+    text-align: center;
+  }
+  .title {
+    font-size: 50px;
+    padding: 10px;
+  }
+  .h3 {
+    padding: 20px;
+  }
+  .subtitle {
+    margin: none;
+  }
+  .icons {
+    width: 60px;
+  }
 }
