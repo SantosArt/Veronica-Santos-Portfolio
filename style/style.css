@@ -5,6 +5,28 @@
   --secondary-font-color: #075fe4;
   --font-family: sans-serif;
 }
+nav {
+  color: var(--primary-font-color);
+  padding: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 46px;
+}
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: var(--primary-font-color);
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-font-color);
+}
 
 h1 {
   text-align: center;
@@ -17,7 +39,7 @@ h3 {
   text-transform: uppercase;
   padding: 50px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 5;
 }
 .h5 {
   font-weight: 700;
@@ -40,7 +62,7 @@ section {
   font-family: var(--font-family);
   background-color: var(--primary-bg-color);
   color: var(--primary-font-color);
-  padding: 150px 20px 50px 20px;
+  padding: 60px 20px 50px 20px;
 }
 .title {
   font-size: 58px;
@@ -82,6 +104,12 @@ section {
   .body {
     text-align: center;
   }
+  section {
+    padding: 20px;
+  }
+  .h1 {
+    font-size: 20px;
+  }
   .title {
     font-size: 50px;
     padding: 10px;
@@ -94,5 +122,15 @@ section {
   }
   .icons {
     width: 60px;
+  }
+  nav a {
+    margin-left: 11px;
+  }
+  .social {
+    width: 55px;
+  }
+  .topic {
+    padding: 0;
+    margin: 0;
   }
 }
