@@ -71,6 +71,13 @@ section {
   color: var(--secondary-font-color);
   font-weight: bold;
 }
+.profil {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
 @media (max-width: 800px) {
   .body {
     text-align: center;
