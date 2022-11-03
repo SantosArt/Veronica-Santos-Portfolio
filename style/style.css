@@ -149,6 +149,14 @@ section {
   text-decoration: none;
   color: #ffffff;
 }
+.link:hover {
+  border: 1px solid var(--secondary-font-color);
+}
+.wasCoded {
+  color: #ffffff;
+  margin: 20px;
+  font-size: 20px;
+}
 @media (max-width: 800px) {
   .body {
     text-align: center;
