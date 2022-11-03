@@ -18,23 +18,27 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/669bff3485.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="body">
     <div class="container">
-
-    <nav class="d-flex justify-content-between">
-      
-      <img src="/img/Logo_White.png" width="50px" alt="">
-      <ul>
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/portfolio.html">Portfolio</a> </li>
-        <li><a href="/contact.html">Contact</a> </li>
-      </ul>
-      </div>
-    </nav>
+      <nav class="d-flex justify-content-between">
+        <a href="/"
+          ><img src="/img/Logo_White.png" width="50px" alt="SantosArt Logo"
+        /></a>
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <section>
-      <h1 class="title">
+      <h1 class="title main">
         <span class="symbol">/</span>
         I'm Veronica Santos,
         <br />
@@ -43,92 +47,118 @@
       </h1>
       <div class="topic">
         <div class="p-3">
-        <h3 class="h3"><span class="symbol">/</span> About me</h3>
-        <h5 class="h5">I’ve been developing websites since 2022</h5>
-        <p class="p">text</p>
-        <a href="" class="button">Learn more</a> →</div>
+          <h3 class="h3 pt-0"><span class="symbol">/</span> About me</h3>
+          <h5 class="h5">I’ve been developing websites since 2022</h5>
+          <p class="p">text</p>
+          <a href="" class="button">Learn more</a> →
+        </div>
         <hr />
         <h3 class="h3"><span class="symbol">/</span> My Work</h3>
-        <h5 class="h5 pb-4">Take a look at the latest projects I’ve done</h5>
+        <h5 class="h5 pb-4">Take a look at the projects I’ve done</h5>
         <div class="container">
-            <div class="row p-4 m-4 work rounded">
-              <div class="col d-none d-md-block">
-                <img
-                  src="/img/Weather-app.JPG"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
+          <div class="row p-4 m-4 work rounded">
+            <div class="col-md-6 text-center">
+              <div class="p-2 mb-3">
+                <h4 class="text-uppercase">Weather App Project</h4>
+                <p>built with:</p>
+                <span class="type">HTML</span>
+                <span class="type">CSS</span>
+                <span class="type">JS</span>
+                <span class="type">API</span>
               </div>
-              <div class="col text-center">
-                <h4>The Weather App</h4>
-                <p>
-                 Weather
-                </p>
+              <img
+                src="/img/Weather-app.JPG"
+                class="rounded img-fluid"
+                alt="..."
+                width="220px"
+              />
+              <div class="p-2">
+                <a
+                  target="_blank"
+                  class="text-uppercase"
+                  href="https://sweet-cobbler-1be222.netlify.app/"
+                  >Check me out</a
+                >
               </div>
             </div>
-          </div>  <div class="container">
-            <div class="row m-4 p-4 work rounded">
-               <div class="col text-center">
-                <h4>The Coffee Website</h4>
-                <p>
-                  Coffee
-                </p>
+            <div class="col-md-6 text-center">
+              <div class="p-2 mb-3">
+                <h4 class="text-uppercase">The Coffee Project</h4>
+                <p>built with:</p>
+                <span class="type">HTML</span>
+                <span class="type">CSS</span>
+                <span class="type">JS</span>
               </div>
-              <div class="col d-none d-md-block">
-                <img
-                  src="/img/Coffee-website.JPG"
-                  class="img-fluid rounded-start"
-                  alt="..." width="360px"
-                />
+              <img
+                src="/img/Coffee-website.JPG"
+                class="rounded img-fluid"
+                alt="..."
+                width="200px"
+              />
+              <div class="p-2">
+                <a
+                  target="_blank"
+                  class="text-uppercase"
+                  href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/012/210/original/Final_Project.html?1658145594"
+                  >Check me out</a
+                >
               </div>
-             
             </div>
           </div>
-          
         </div>
-        <a href="" class="button">Browse Portfolio</a> →
+        <div class="mt-5">
+          <a href="/portfolio.html" class="button">Browse Portfolio</a> →
+        </div>
       </div>
     </section>
-    <div class="skills rounded">
-    <h3 class="text-center m-3 subtitle h3">
-      <span class="symbol">/</span> MY SKILLS
-    </h3>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-4">
-          <img
+    <section class="skills rounded">
+      <h3 class="text-center m-3 subtitle h3">
+        <span class="symbol">/</span> MY SKILLS
+      </h3>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-4">
+            <img
               src="/img/icon-HTML.svg"
-             width="100px"
+              width="100px"
               alt="..."
               class="icons"
             />
-    </div>
-        <div class="col-4"><img
-              src="/img/icon-css.svg"
-             width="100px"
-              alt="..."
-              class="icons"
-
-            />
-            </div>
-        <div class="col-4"><img
-              src="/img/icon-JS.svg"
-              class="icons"
-             width="100px"
-              alt="..."
-            />
-            
           </div>
-    <footer class="p-4 m-3 ">
-      <div class="p-4 m-3 subtitle h3"><span class="symbol">/</span> follow me</div>
-      <div class="subtitle">
-        <img class="social" src="/img/icon-facebook.svg" alt="facebook-icon" />
-        <img class="social" src="/img/icon-instagram.png" alt="instagram-icon" />
-        <img class="social" src="/img/icon-twitter.png" alt="" />
-        <img class="social" src="/img/icon-linkedin.png" alt="" />
-        <img class="social" src="/img/icon-github.png" alt="" />
+          <div class="col-4">
+            <img
+              src="/img/icon-css.svg"
+              width="100px"
+              alt="..."
+              class="icons"
+            />
+          </div>
+          <div class="col-4">
+            <img src="/img/icon-JS.svg" class="icons" width="100px" alt="..." />
+          </div>
+        </div>
       </div>
-    </footer>
-    </div>
+      <footer class="p-4 m-3">
+        <div class="p-4 m-3 subtitle h3">
+          <span class="symbol">/</span> follow me
+        </div>
+        <div class="social d-flex justify-content-evenly">
+          <a target="_blank" href="https://www.instagram.com/santos25_/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a target="_blank" href="https://github.com/SantosArt"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/veronica-santos-1a2a281b6/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://twitter.com/_SantosArt_"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
