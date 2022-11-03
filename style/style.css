@@ -147,6 +147,7 @@ section {
   border-radius: 10px;
   text-decoration: none;
   color: #ffffff;
+  transition: all 150ms ease-in-out;
 }
 .link:hover {
   border: 1px solid var(--secondary-font-color);
