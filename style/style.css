@@ -22,12 +22,15 @@ nav a {
   margin-left: 25px;
   text-decoration: none;
   color: var(--primary-font-color);
+  font-size: 20px;
 }
 nav a:hover,
 nav li.active a {
   color: var(--secondary-font-color);
 }
-
+.main {
+  margin-top: 30px;
+}
 h1 {
   text-align: center;
   padding-bottom: 30px;
@@ -40,6 +43,9 @@ h3 {
   padding: 50px;
   font-weight: 700;
   font-size: 5;
+}
+.myWork {
+  padding-top: 0;
 }
 .h5 {
   font-weight: 700;
@@ -57,6 +63,8 @@ h3 {
 }
 .skills {
   background-color: #ffffff;
+  color: black;
+  padding-top: 20px;
 }
 section {
   font-family: var(--font-family);
@@ -88,6 +96,16 @@ section {
   color: #c3cad5;
   font-weight: 400;
 }
+.appParagragh {
+  font-size: 20px;
+}
+.type {
+  margin: 0px 10px;
+  background: #7a8592;
+  padding: 4px 8px;
+  border-radius: 20%;
+  font-weight: bold;
+}
 
 .symbol {
   color: var(--secondary-font-color);
@@ -99,6 +117,37 @@ section {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+.getInTouch {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+.getInTouch:hover {
+  color: var(--secondary-font-color);
+}
+.social {
+  margin-top: 40px;
+}
+.social a {
+  color: var(--primary-font-color);
+  margin: 0 20px;
+  background: var(--secondary-bg-color);
+  padding: 10px 22px;
+  border-radius: 50%;
+  font-size: 38px;
+  transition: all 200ms ease-in-out;
+}
+.link {
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
 }
 @media (max-width: 800px) {
   .body {
@@ -126,11 +175,19 @@ section {
   nav a {
     margin-left: 11px;
   }
-  .social {
-    width: 55px;
-  }
+
   .topic {
     padding: 0;
     margin: 0;
+  }
+  .social {
+    margin-top: 10px;
+  }
+  .social a {
+    margin: 0 10px;
+    background: var(--secondary-bg-color);
+    padding: 8px 15px;
+    border-radius: 50%;
+    font-size: 28px;
   }
 }
