@@ -156,8 +156,17 @@ section {
   margin: 20px;
   font-size: 20px;
 }
+.mainImage {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 20px;
+}
 
 @media (max-width: 800px) {
+  .mainImage {
+    width: 170px;
+  }
   .profil {
     width: 130px;
   }
