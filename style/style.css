@@ -61,6 +61,7 @@ h3 {
 .topic {
   padding: 60px;
 }
+
 .skills {
   background-color: #ffffff;
   color: black;
@@ -168,7 +169,7 @@ section {
     font-size: 20px;
   }
   .title {
-    font-size: 50px;
+    font-size: 40px;
     padding: 10px;
   }
   .h3 {
@@ -180,8 +181,13 @@ section {
   .icons {
     width: 60px;
   }
+  .work {
+    padding: 0;
+    margin: 0;
+  }
   nav a {
-    margin-left: 11px;
+    margin-left: 8px;
+    font-size: 15px;
   }
 
   .topic {
@@ -197,5 +203,17 @@ section {
     padding: 8px 15px;
     border-radius: 50%;
     font-size: 28px;
+  }
+  .type {
+    font-size: 12px;
+  }
+  .wasCoded {
+    font-size: 15px;
+  }
+  .link {
+    font-size: 15px;
+  }
+  .getInTouch {
+    font-size: 20px;
   }
 }
