@@ -158,7 +158,9 @@ section {
   margin: 20px;
   font-size: 20px;
 }
-
+.logo {
+  width: 50px;
+}
 @media (max-width: 800px) {
   .body {
     text-align: center;
@@ -166,8 +168,11 @@ section {
   section {
     padding: 20px;
   }
+  .logo {
+    width: 25px;
+  }
   .h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .title {
     font-size: 40px;
@@ -188,7 +193,8 @@ section {
   }
   nav a {
     margin-left: 6px;
-    font-size: 15px;
+    font-size: 18px;
+    padding: 0;
   }
 
   .topic {
