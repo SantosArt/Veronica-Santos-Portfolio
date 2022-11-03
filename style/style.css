@@ -158,9 +158,7 @@ section {
   margin: 20px;
   font-size: 20px;
 }
-.logo {
-  width: 50px;
-}
+
 @media (max-width: 800px) {
   .body {
     text-align: center;
@@ -168,9 +166,7 @@ section {
   section {
     padding: 20px;
   }
-  .logo {
-    width: 30px;
-  }
+
   .h1 {
     font-size: 18px;
   }
