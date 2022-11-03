@@ -114,11 +114,8 @@ section {
   font-weight: bold;
 }
 .profil {
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  border-radius: 20px;
+  margin-left: 20px;
 }
 .getInTouch {
   color: black;
@@ -161,6 +158,9 @@ section {
 }
 
 @media (max-width: 800px) {
+  .profil {
+    width: 80px;
+  }
   .body {
     text-align: center;
   }
